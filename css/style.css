@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F0F2F5;
+}
+.main{
+    width: 100%;
+    overflow: hidden;
+}
+.main .mar{
+    width: 80%;
+    margin: auto;
+    
+}
+.left{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.left img{
+    width: 240px;
+}
+.left h1{
+    font-family: tahoma;
+    font-weight: normal;
+    font-size: 28px;
+    width: 91%;
+    margin-left: 17px;
+}
+.right{
+    width: 50%;
+    float: left;
+    
+}
+.right .logbox{
+    width: 75%;
+    background-color: white;
+    margin: auto;
+    padding: 16px;
+    border:none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1); 
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.intab{
+    display: block;
+}
+.intab input{
+    width: 100%;
+    padding: 16px 10px;
+    outline: none;
+    border: 1px solid #DDDFE2;
+    color: #1D2129;
+    font-family: tahoma;
+    font-size: 16px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.intab input:focus{
+    border: 1px solid #1877F2;
+}
+.intab input:hover{
+    border: 1px solid #1877F2;
+}
+.intab input:first-child{
+    margin-top: 0;
+}
+.intab input:last-child{
+    margin-bottom: 0;
+}
+.btna{
+    margin-top: 10px;
+}
+.btna input{
+    width: 100%;
+    padding: 12px 10px;
+    background: #1877f2;
+    font-family: tahoma;
+    border-radius: 8px;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: none;
+}
+.btna a{
+    margin-top: 13px;
+    text-decoration: none;
+    color: #1877f2;
+    font-family: tahoma;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+}
+hr{
+    margin-top: 21px;
+    margin-bottom: 21px;
+    border: none;
+    outline: none;
+    border: 1px solid #dddfe2a1;
+}
+.in button{
+    display: block;
+    margin: auto;
+    width: 53%;
+    padding: 14px 10px;
+    background-color: #35b91a;
+    font-family: tahoma;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.left, .right{
+    margin-top: 180px;
+    margin-bottom: 185px;
+}
+.right{
+    margin-top: 120px;
+}
+.mainfooter{
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+}
+.midfooter{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+.footer1 a{
+    color: #777;
+    display: inline-block;
+    font-family: tahoma;
+    font-size: 11px;
+    text-decoration: none;
+    padding: 0px 10px 0px 5px;
+    margin-left: 6px;
+}
+.footer1 a:hover{
+    text-decoration: underline;
+}
+.brdd{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 14px;
+    border: none;
+    width: 89%;
+    margin-left: 10px;
+    height: 1px;
+    background-color:#a0a9c056 ;
+}
+.footer2{
+    width: 90%;
+}
+.footer2 a{
+    color: #777;
+    display: inline-block;
+    margin-top: 7px;
+    font-family: tahoma;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+.footer2 a:hover{
+    text-decoration: underline;
+}
+.mepart{
+    margin-left: 10px;
+    margin-top: 18px;
+}
+.mepart p{
+    font-family: tahoma;
+    color: rgb(36, 36, 36);
+}
+.mepart p a{
+    margin: 10px 0px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-family: tahoma;
+    color: #1877f2;
+    ;
+    
+}
+.mepart p a:hover{
+    text-decoration: underline;
+}
